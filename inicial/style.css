@@ -1,0 +1,13 @@
+@import url('css/resset.css');
+@import url('css/reticula.css');
+@import url('css/section.css');
+@import url('css/editorial.css');
+@import url('css/forms.css');
+@import url('css/layout.css');
+
+html, body{
+    color: #282828;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif ;
+}
+

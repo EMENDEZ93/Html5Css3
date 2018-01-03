@@ -1,0 +1,21 @@
+
+.home {
+    /* Don't repeat image */
+    background: #FFFFFF url("../assets/photo.jpg") no-repeat center center fixed;
+
+    /* dynamic image on screen */
+    background-size: cover;
+
+    /* suggest other engine searching */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20% 0;
+
+    box-sizing: border-box;
+}
+
+
