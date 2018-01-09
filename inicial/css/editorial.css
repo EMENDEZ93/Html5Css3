@@ -7,3 +7,12 @@ h1 {
 a {
     text-decoration: none;
 }
+
+ol li {
+    counter-increment: step-counter;
+}
+
+ol li::before {
+    content: counter(step-increment);
+    display: inline;
+}
